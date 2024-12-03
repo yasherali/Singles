@@ -1,0 +1,30 @@
+
+#####Fire base App module is necessary for Notification App
+
+import os
+from firebase_admin import initialize_app
+from datetime import timedelta
+# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+#Setting FireBase Application Credentials
+cred = os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'Firebase Credentials File Path'
+
+
+INSTALLED_APPS = [
+
+    'django_notification',
+    'fcm_django',
+
+]
+
+
+# Firebase Cloud Messaging Setting 
+FCM_DJANGO_SETTINGS = {
+    "FCM_SERVER_KEY": "FCM-Serevr-Key Code",
+    "FCM_SENDER_ID": "Sender ID",
+    "ONE_DEVICE_PER_USER": False,
+    "DELETE_INACTIVE_DEVICES": True,
+}
+# Initializing Firebase App
+FIREBASE_APP = initialize_app()

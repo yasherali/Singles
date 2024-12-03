@@ -1,0 +1,12 @@
+[submodule "django_chat"]
+	path = django_chat
+	url = git@bitbucket.org:bitswits/django_chat.git
+[submodule "django_firestore_messaging"]
+	path = django_firestore_messaging
+	url = git@bitbucket.org:bitswits/django_firestore_messaging.git
+[submodule "django_rest_authentication"]
+	path = django_rest_authentication
+	url = git@bitbucket.org:bitswits/django_rest_authentication.git
+[submodule "django_notification"]
+	path = django_notification
+	url = git@bitbucket.org:bitswits/django_notification.git

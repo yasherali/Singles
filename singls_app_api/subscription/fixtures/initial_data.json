@@ -1,0 +1,40 @@
+[
+    {
+        "model": "subscription.plantype",
+        "pk": 1,
+        "fields": {
+            "name": "user",
+            "display_name": "user"
+        }
+    },
+    
+    
+    
+    {
+        "model": "subscription.plan",
+        "pk": 1,
+        "fields": {
+            "name": "Subscription",
+            "description": "",
+            "i_plan_type": 1,
+            "meta": null,
+            "created_at": "2023-10-30T06:13:54Z"
+        }
+    },
+    
+    {
+        "model": "subscription.plancharges",
+        "pk": 1,
+        "fields": {
+            "i_plan": 1,
+            "code": "premium",
+            "charges_type": "monthly",
+            "description": "",
+            "meta": {
+                "product_id": "monthly_single"
+            },
+            "price": 1.99
+        }
+    }
+    
+]

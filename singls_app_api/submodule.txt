@@ -1,0 +1,6 @@
+git submodule add <repository_url> <path/to/submodule>
+
+git submodule add https://github.com/example/submodule.git path/to/submodule
+
+git submodule update --init --recursive
+git submodule update --remote

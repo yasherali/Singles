@@ -1,0 +1,11 @@
+
+######## Firebase App Module is Necessary for Chat App
+
+INSTALLED_APPS = [
+
+    'django_chat',
+
+]
+
+
+
